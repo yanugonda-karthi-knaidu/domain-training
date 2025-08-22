@@ -25,3 +25,15 @@ while(len(res)!=1):
     f=(f+c-1)%len(res)
     res.pop(f)
 print("Relationship is: ",res[0])
+if(res[0]=="F"):
+    print("FRIENDS")
+elif(res[0]=="L"):
+    print("LOVERS")
+elif(res[0]=="A"):
+    print("AFFECTION")
+elif(res[0]=="M"):
+    print("MIRRAGE")
+elif(res[0]=="E"):
+    print("ENEMY")
+elif(res[0]=="S"):
+    print("SISTER")
